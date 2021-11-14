@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", //target language specification.
+    "module": "es2020" /**If we do imports and exports
+in TypeScript, how should they be treated by the target
+language we compile to?*/,
+    "allowJs": true /**tells TypeScript to allow a reference
+to regular JavaScript files.*/,
+    "checkJs": true /** 
+    It tells TypeScript to type-check
+JavaScript files.
+    */,
+    "typeRoots": ["@types", "node_modules/@types"] /** 
+    Here we tell the TypeScript compiler what
+VS Code originally did: the folders where additional
+type information can be found.
+    */,
+    "esModuleInterop": true /** 
+    If you want to mix modules from different
+module systems like ES Modules and CommonJS, you
+can set this flag to true
+    */
+  }
+}
+
+/** 
+We, however,
+want to type-check regular JavaScript, so we need to make a
+couple of adjustments.
+*/
