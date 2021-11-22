@@ -1,0 +1,11 @@
+Functions in JavaScript are big. So too in TypeScript. In this
+chapter, we’ve learned a lot about functions:
+1. First, we learned about function types, return types, and parameter types.
+2. We dug into callbacks, a concept in JavaScript that pops up everywhere. We learned that functions have their own types, and that argument order is important, rather than their names.
+3. We learned about the concept of substitutability. Functions can have a different shape than their types if the context allows for it.
+4. Sometimes when writing JavaScript, I want to shout, “This is ridiculous!” but I never know what this refers to. Well, thank goodness TypeScript can help us with that! this argument types help us to prevent errors and get more info about the object we bind our function to.
+5. We learned how TypeScript infers async function return types and works with rest parameters.
+6. Also, we saw that TypeScript needs special function heads for tagged template literals.
+7. Function overloads help us to define multiple function types for one function, comforming to the flexibility of JavaScript functions, but also making the complexity of very flexible functions visible.
+8. Last, but not least, we dug into a special kind of function: the ones with the asterisk, generator functions! 
+We also took a peek into some more advanced concepts like union types, generics, and much more! Stuff to unravel in the chapters to come.
